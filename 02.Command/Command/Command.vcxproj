@@ -142,12 +142,14 @@
     <ClInclude Include="Command.h" />
     <ClInclude Include="FireCommand.h" />
     <ClInclude Include="GameActor.h" />
+    <ClInclude Include="InputManager.h" />
     <ClInclude Include="JumpCommand.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Command.cpp" />
     <ClCompile Include="FireCommand.cpp" />
     <ClCompile Include="GameActor.cpp" />
+    <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="JumpCommand.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

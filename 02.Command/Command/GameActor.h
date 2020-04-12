@@ -1,5 +1,6 @@
 #pragma once
 #include "Command.h"
+#include <string>
 
 class GameActor
 {
@@ -9,4 +10,9 @@ public:
 
 	void Jump();
 	void Fire();
+
+	void PrintName();
+
+private:
+	string name = "test";
 };

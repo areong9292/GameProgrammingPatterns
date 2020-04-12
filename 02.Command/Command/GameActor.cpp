@@ -18,3 +18,8 @@ void GameActor::Fire()
 {
 	cout << "Fire" << endl;
 }
+
+void GameActor::PrintName()
+{
+	cout << "ÀÌ¸§ : " << name << endl;
+}
